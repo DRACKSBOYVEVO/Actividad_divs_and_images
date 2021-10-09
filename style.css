@@ -1,0 +1,86 @@
+.post-middle a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  #container {
+    margin-left: 100px;
+    width: 1200px;
+    display: block;
+  }
+  
+  .post {
+    margin-left: 150px;
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    width: 450px;
+    margin: 30px 0px 0px 30px;
+    max-height: 216px;
+    float: left;
+    display: inline-block;
+    position:relative;
+  
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0 inset, rgba(0, 0, 0, 0.2) 0px 12px 20px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0 inset, rgba(0, 0, 0, 0.2) 0px 12px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0 inset, rgba(0, 0, 0, 0.2) 0px 12px 20px;
+  }
+  
+  .post-top {
+    position: relative;
+    display: block;
+    padding-top: 8px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    z-index: 0;
+  }
+  
+  .post-top img {
+    width: 430px;
+    height: 300px;
+    border-radius: 2px;
+    margin-left: 15px;
+    z-index: 0;
+  }
+  
+  .post-middle {
+    height: 0px;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    background: #343637;
+    -webkit-box-shadow: black 0px 2px 8px inset;
+    -moz-box-shadow: black 0px 2px 8px inset;
+    box-shadow: black 0px 2px 8px inset;
+    -webkit-transition-property: height;
+    -moz-transition-property: height;
+    -o-transition-property: height;
+    transition-property: height;
+    -webkit-transition-duration: 200ms;
+    -moz-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
+    transition-duration: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+  }
+
+  .post-last {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    height: 250px; 
+  }
+  li {
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-top: 25px;
+    text-align: center;
+  }
